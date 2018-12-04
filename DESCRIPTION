@@ -8,3 +8,7 @@ Description: This package should take inputs for the desired pdf and accept or r
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
