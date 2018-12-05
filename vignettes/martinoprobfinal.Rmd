@@ -4,7 +4,7 @@ author: "Vincent Martino"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteIndexEntry{MartinoProbFinal}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -16,5 +16,11 @@ vignette: >
 # @Parameter a is the lower bound of the random variable
 # @Parameter b is the upper bound of the random variable
 # @Parameter C is the number that f(x) <= C for all x 
+```
+
+```{r}
+# An example of this function would be if you wanted to sample from a Beta(2,2) you would input:
+pdf <- function(x) 6*x*(1-x)
+
 ```
 
