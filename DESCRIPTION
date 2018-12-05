@@ -3,7 +3,7 @@ Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
 Author: Vince Martino 
-Maintainer: martinovj@slu.edu
+Maintainer: Vince Martino <martinovj@slu.edu>
 Description: This package should take inputs for the desired pdf and accept or reject if it meets the proper parameters 
 License: What license is it under?
 Encoding: UTF-8
@@ -12,3 +12,4 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+RoxygenNote: 6.1.1
