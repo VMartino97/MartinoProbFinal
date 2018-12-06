@@ -8,6 +8,12 @@ vignette: >
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
+```{r}
+library(devtools)
+install_github("https://github.com/VMartino97/MartinoProbFinal.git")
+library(MartinoProbFinal)
+```
+
 Input Details 
 
 n is the desired number of samples
@@ -18,10 +24,6 @@ C is the numeric that f(x) must be less than or equal to
 
 
 ```{r}
-
-library(devtools)
-install_github("https://github.com/VMartino97/MartinoProbFinal.git")
-library(MartinoProbFinal)
 pdf <- function(x) {3*x}
 accept.reject(5,pdf,0,1,.5)
 
