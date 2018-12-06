@@ -9,6 +9,7 @@
 #' @description samples a give pdf of a random variable
 #'
 #' @return the samples
+#' @export
 
 accept.reject <- function(n, pdf, a, b, C){
   n.accepts <- 0
