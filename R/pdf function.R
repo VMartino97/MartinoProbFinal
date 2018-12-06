@@ -14,7 +14,7 @@ accept.reject <- function(n, pdf, a, b, C){
   n.accepts <- 0
   result.sample <- rep(NA, n)
 
-  while(n.accepts < 0){
+  while(n.accepts < n){
   q<- runif(1,a,b)
   y <- runif(1,0,C)
   if (pdf(q)>=y){
