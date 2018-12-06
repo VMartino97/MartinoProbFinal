@@ -1,11 +1,11 @@
 \name{MartinoProbFinal}
-\alias{hello}
-\title{Hello, World!}
+\alias{ProbFinal}
+\title{Data Sampler}
 \usage{
-hello()
+accept.reject(n,pdf,a,b,c)
 }
 \description{
-Samples data from a given pdf of a random variable
+Samples data from a given pdf of a random variable with specific paramaters that the user desires
 }
 \examples{
 pdf <- function(x){3*x}
