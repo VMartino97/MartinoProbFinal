@@ -4,8 +4,7 @@ Title: Samples Data from a random variable
 Version: 0.1.0
 Author: Vince Martino 
 Maintainer: Vince Martino <martinovj@slu.edu>
-Description: This package should take inputs for the desired 
-random variable and given pdf. Then accept or reject if it meets the specified parameters.
+Description: This package should take inputs for the desired random variable and given pdf. Then accept or reject if it meets the specified parameters.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
