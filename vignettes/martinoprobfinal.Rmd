@@ -20,11 +20,14 @@ vignette: >
 
 ```{r}
 # An example of this function would be if you wanted to sample from a random variable with pdf 3x, you would input:
+library(devtools)
+install_github("https://github.com/VMartino97/MartinoProbFinal.git")
+library(MartinoProbFinal)
 pdf <- function(x) {3*x}
 a <- 0
 b <- 1
 c <- 0.5
-n <- 100
+n <- 5
 accept.reject(n,pdf,a,b,c)
 
 ###Should return values of the samples. 
