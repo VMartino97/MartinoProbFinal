@@ -19,8 +19,15 @@ vignette: >
 ```
 
 ```{r}
-# An example of this function would be if you wanted to sample from a Beta(2,2) you would input:
-pdf <- function(x) 6*x*(1-x)
+# An example of this function would be if you wanted to sample from a random variable with pdf 3x, you would input:
+pdf <- function(x) {3*x}
+a <- 0
+b <- 1
+c <- 0.5
+n <- 100
+accept.reject(n,pdf,a,b,c)
+
+###Should return values of the samples. 
 
 ```
 
