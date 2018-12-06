@@ -24,11 +24,7 @@ library(devtools)
 install_github("https://github.com/VMartino97/MartinoProbFinal.git")
 library(MartinoProbFinal)
 pdf <- function(x) {3*x}
-a <- 0
-b <- 1
-c <- 0.5
-n <- 5
-accept.reject(n,pdf,a,b,c)
+accept.reject(5,pdf,0,1,.5)
 
 ###Should return values of the samples. 
 
